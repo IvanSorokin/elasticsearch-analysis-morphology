@@ -38,8 +38,8 @@ apply plugin: 'nebula.maven-publish'
 
 repositories {
     maven {
-        name 'bintray-babayotakun-russianmorphology'
-        url "https://dl.bintray.com/babayotakun/russianmorphology"
+        name 'bintray-ivansorokin-russianmorphology'
+        url "https://dl.bintray.com/ivansorokin/russianmorphology"
     }
 }
 
@@ -53,9 +53,9 @@ esplugin {
 esplugin.version = version
 
 dependencies {
-    compile "org.apache.lucene.morphology:russian:1.4"
-    compile "org.apache.lucene.morphology:english:1.4"
-    compile "org.apache.lucene.morphology:morph:1.4"
+    compile "org.apache.lucene.morphology:russian:1.5"
+    compile "org.apache.lucene.morphology:english:1.5"
+    compile "org.apache.lucene.morphology:morph:1.5"
 }
 
 publishing {
