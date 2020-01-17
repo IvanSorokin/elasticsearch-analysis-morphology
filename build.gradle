@@ -23,7 +23,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath "org.elasticsearch.gradle:build-tools:7.2.0"
+        classpath "org.elasticsearch.gradle:build-tools:7.5.1"
         classpath "com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4"
     }
 }
@@ -43,7 +43,7 @@ repositories {
     }
 }
 
-version = '7.2.0'
+version = '7.5.1'
 
 esplugin {
     description 'English and Russian Morphology for ElasticSearch.'
@@ -92,4 +92,3 @@ dependencyLicenses.enabled = false
 
 project.licenseFile = project.rootProject.file('LICENSE.txt')
 project.noticeFile = project.rootProject.file('NOTICE.txt')
-
