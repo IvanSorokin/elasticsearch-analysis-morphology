@@ -23,7 +23,7 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath "org.elasticsearch.gradle:build-tools:7.5.1"
+        classpath "org.elasticsearch.gradle:build-tools:7.8.0"
         classpath "com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4"
     }
 }
@@ -43,7 +43,7 @@ repositories {
     }
 }
 
-version = '7.5.1'
+version = '7.8.0'
 
 esplugin {
     description 'English and Russian Morphology for ElasticSearch.'
